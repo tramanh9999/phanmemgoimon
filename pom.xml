@@ -1,0 +1,10 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>com.myfamily.app</groupId>
+   <artifactId>PhanMemQuanLyGoiMon</artifactId>
+   <version>1.0</version>
+   <packaging>war</packaging>
+   <build>
+       <finalName>${project.artifactId}</finalName>
+   </build>
+</project>
