@@ -25,7 +25,12 @@ public class DAO<T> {
     DbManager dbmana;
 
     public DAO() {
-        this.dbmana = new DbManager();
+        try {
+            this.dbmana = new DbManager();
+            DbManager.connection.createStatement().execute("SET CHARACTER SET utf8");
+        } catch (SQLException ex) {
+            Logger.getLogger(DAO.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     public ResultSet executeQuerry(PreparedStatement pre) {

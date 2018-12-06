@@ -83,7 +83,7 @@ public class SanPhamDAO extends DAO<SanPham> {
     }
 
     public static void main(String[] args) {
-        System.out.println(new SanPhamDAO().getItemlistByType("drink").get(4).getItemname());
+        System.out.println(new SanPhamDAO().all().get(1).getItemname());
     }
 
 }
