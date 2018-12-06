@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+}
+
+
+.container{
+    padding-top: 5%;
+}
+
+.checkbox{
+    height: 30px;
+    width:30px;;
+}.AddOrder {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+#savedata{
+    word-wrap: break-word;
+    box-sizing: border-box;
+    height: inherit;
+    width: 30%;
+    margin-right: 0;
+    float: left;
+}
+#addorder{
+    box-sizing: border-box;
+    height: inherit;
+    width:70%;
+    margin-left: 0;
+    float: left;
+
+}
+
+
+
+.ordertb {
+}

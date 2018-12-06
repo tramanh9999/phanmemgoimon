@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 2, 2018, 8:58:11 AM
+    Author     : dell
+*/
+
+.btheader{
+    height:fit-content;
+    width:100%; 
+    position: fixed;
+    color: white;
+    font-size: 100%;
+    text-align: center
+}
+.tableNum{
+    height: 3%;
+    width: 100%;
+}
+.menu{
+    height: 600px;
+    width: 100%;
+    background-color: #686868;
+    border: .1em groove gray;
+}
+.itemmenu {
+    height: 600px;
+    overflow-y: scroll;
+}
+.foodmenu{
+    float: left;
+    width: 70%;
+    background-color: inherit;
+    border-right: .2em  solid #28a745;
+}
+.table{
+    height: fit-content;
+}
+.table td{
+    height: inherit;
+    width: 50%;
+    padding: 0;
+    padding-right: 10px;;
+    padding-bottom: 10px;
+}
+.table tr td:last-child{
+    padding-right: 0;
+}
+.table tr{
+    width: 100%;
+    height: fit-content;
+    
+}
+
+
+.itemImgdiv{
+    width: 100%;
+    background-color: #b21f2d;
+    max-height: 250px;
+    overflow: hidden;
+}
+img.foodimg{
+    width: 100%;
+    height: 100%;
+}
+.fooddetail{
+    height: fit-content;
+    width: 100%;
+}
+.itemnum{
+    height: 20%;
+    width: 100%;
+}
+
+.itemnum input{
+    float: left;
+}
+.itemnum input[type="text"]{
+    width: 60%;
+}
+.itemnum input[type="button"]{
+    width: 20%;
+}
+
+
+.drinkmenu{
+    width: 30%;
+    background-color: #32383e;
+    float: left;
+}
+
+
+
+
+
+
+.itemname {
+    height: fit-content;
+    width: inherit;
+    font-size: 80%;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+
+.itemprice {
+    height: fit-content;
+    width: inherit;
+    font-size: 100%;
+}
+.itemprice select{
+    height:100%;
+    width:fit-content;
+}
+
+
+
+.drinktable {
+    width: 100%;
+}
